@@ -1,0 +1,409 @@
+nav
+{
+background-color: black;
+list-style: none;
+}
+
+nav ul li
+{
+display: inline-block;
+position: relative;
+}
+
+ul li a 
+{
+display: block;    
+padding: 20px 10px;
+text-decoration: none;
+text-align: center;
+font-size: 15px;
+color: white;
+}
+
+ul li ul.dropdown li
+{
+display: block;    
+}
+
+ul li ul.dropdown
+{
+width: 100%; 
+position: absolute;
+z-index: 999;
+display: none;
+background: black;   
+}
+
+ul li a:hover
+{
+background: rgb(153, 4, 4);    
+}
+
+ul li:hover ul.dropdown
+{
+display: block;    
+}
+
+img
+{
+width: 700px; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inlineblock
+{
+display: inline-block;    
+}
+
+main#index
+{
+width: 300px;
+margin: left;
+color: rgb(0, 0, 0);
+font-size: 18px;
+text-align: justify;
+text-indent: 30px;
+font-family:Arial, Arial, Helvetica, sans-serif;
+line-height: 30px;
+margin-left: 40px;
+margin-top: 40px;
+}
+
+.textointroducao
+{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 4px 4px rgb(255, 0, 0);
+    border: 3px solid rgb(255, 0, 0) ;    
+    padding: 20px ;
+    border-radius: 10px;
+}
+
+h1.tituloprincipal
+{
+color: rgb(255, 255, 255);
+font-size: 50px;
+text-shadow: 3px 2px 2px rgb(255, 0, 0);
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+padding: 0px 0px 40px 0px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.home
+{
+color: rgb(255, 255, 255);    
+text-decoration:none;
+text-align: justify;
+font-size: 45px;
+text-shadow: 2px 1px 1px rgba(255, 0, 0, 0.63);
+padding: 0px 10px 0px 70px;
+font-family:"Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+margin-left: 70px;
+}
+
+a#sobremiminsta
+{
+text-decoration:none;
+text-align: justify;
+font-size: 30px;
+color: #f50c79e0;
+}
+
+a#sobremimyoutube
+{
+text-decoration:none;
+text-align: justify;
+font-size: 30px;
+color: #ff0000e0;
+}
+
+a#sobremimtwitter
+{
+text-decoration:none;
+text-align: justify;
+font-size: 30px;
+color: #0099ffe0;
+}
+
+a#sobremimtwitch
+{
+text-decoration:none;
+text-align: justify;
+font-size: 30px;
+color: #b700ffe0;
+}
+
+hr.linha
+{  
+background-color: rgb(255, 0, 0);
+box-shadow: 4px 2px 2px rgba(255, 0, 0, 0.63); 
+}
+
+.sobremimtexto
+{
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    font-family:Arial, Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.63); 
+    margin-top: 50px;
+    float: right;
+    margin-right: 35px;
+    border: 2px solid black;
+}
+
+h1.Meconhecamelhor
+{
+color: rgb(255, 255, 255);
+font-size: 30px;
+text-shadow: 5px 2px 2px rgb(0, 0, 0);
+font-family: 'Times New Roman', Times, serif;
+padding: 20px 0px 0px 0px;    
+margin-left: 30px;
+}
+
+h2.qmsoueu
+{
+color: rgb(255, 255, 255);
+font-size: 20px;
+text-shadow: 5px 2px 2px rgb(0, 0, 0);
+font-family: 'Times New Roman', Times, serif;
+margin-left: 30px;  
+margin-top: 15px; 
+}
+
+header.fundomenu
+{
+background-color: black;
+}
+
+a.frasesPaginaJogos
+{
+text-decoration: none;    
+color: rgb(255, 255, 255);
+text-shadow: 2px 2px 2px rgb(0, 0, 0);
+font-size: 50px;
+}
+
+.ordemlinkssociais
+{
+margin-left: 30px;    
+}
+
+main.conteudopagjogos
+{
+text-align: center;  
+}
+
+img.imagenspagjogos
+{
+width: 300px;
+}
+
+div.box
+{
+    background-color: rgb(255, 255, 255); 
+    text-align: center;   
+    width: 350px;
+    margin: auto;
+    margin-top: 4px;
+    border-radius: 20px;
+    margin-top: 80px;
+    border: 3px solid rgba(0, 0, 0, 0.568) ;    
+    box-shadow: 5px 4px 4px rgb(0, 0, 0);
+}
+
+h1.titulopagjogos
+{
+color: rgb(255, 255, 255); 
+text-shadow: 2px 2px 2px rgb(0, 0, 0); 
+font-size: 45px; 
+margin-top: 40px; 
+}
+
+.logoUmbrella
+{
+width: 30px; 
+vertical-align: -10px;
+display: none;
+}
+
+
+.palavraresident
+{
+color: rgb(255, 255, 255); 
+font-size: 15px; 
+text-shadow: 3px 2px 2px rgb(255, 0, 0);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+vertical-align: 0px;
+margin-left: 130px;
+display: none;
+}
+
+.palavraevil
+{
+color: rgb(255, 0, 0); 
+font-size: 15px; 
+text-shadow: 3px 2px 2px rgb(0, 0, 0); 
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+vertical-align: 0px;
+display: none;
+}
+
+h1.titulore8e7
+{
+font-size: 60px;
+text-align: center;
+margin-top: 30px;
+color: white;
+}
+
+h2.subtitulore8e7
+{
+color: white;
+font-size: 40px;
+margin-top: 60px;
+margin-left: 10px;
+}
+
+.textosre8
+{
+padding: 10px ;  
+font-size: 20px; 
+color:white;
+text-align: justify;
+}
+
+.Locaisre8e7
+{
+color:white;
+font-size: 25px ;
+margin-top: 20px;
+margin-left: 30px;
+}
+
+p.subtilosimagens
+{
+font-size: 20px;
+margin-top: 20px;
+}
+
+.separacaotopo
+{
+margin-top: 20px;    
+}
+
+.rodape
+{
+height: 150px;  
+margin-top: 30px;
+background-color: rgba(128, 128, 128, 0.384); 
+margin-left: 0px;
+}
+
+div.conteudocap
+{
+background-color: white; 
+text-align: justify;   
+margin: auto;
+margin-top: 4px;
+}
+
+.logocap
+{
+margin-top: 20px;
+width: 300px;  
+}
+
+.textocap
+{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    font-family:Arial, Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    width: 300px;
+    margin-top: 40px;
+  
+}
+
+.linksteam
+{
+text-decoration: none;
+color: blue;    
+}
+
+.bibliografialinks
+{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.fotodev
+{
+
+height: 300px;
+border-radius: 20%;
+border: 5px solid black;
+}
+
+.logossociais
+{
+width: 60px ;
+margin-left: 20px;
+margin-top: 10px;
+}
+
+.semlinha
+{
+text-decoration: none;    
+}
+
+.alignleft
+{
+text-align: left;    
+}
+
+.h2jg
+{
+color: black;    
+font-size: 35px;
+}
+
+.textojogos
+{
+   
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 20px ;
+    border-radius: 10px; 
+    text-align: justify;   
+    line-height: 40px;
+    text-indent: 75px;
+}
+
+.fotodosjogos
+{
+width: 300px;    
+}
+
+.videoiframe
+{
+width: 350px;
+height: 250px;
+text-align: justify;
+}
